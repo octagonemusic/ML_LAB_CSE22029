@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 # Load the data from the Excel sheet, specifying that the column names are in the 6th row (index 5)
-file_path = 'lab03/groundwater_data.xlsx'
+file_path = 'groundwater_data.xlsx'
 df = pd.read_excel(file_path, header=5)
 
 # Select only the "District Name" and "Chloride (mg/L)" columns
